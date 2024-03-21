@@ -27,14 +27,22 @@ form{
 }
 
 #openBtn{
-    text-align:center
+    font-size: 72px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 input{
   color: #027d79;
 }
 
+.center {
+    margin: auto;
+    top: 50%;
+    width: 50%;
+    padding: 300px;
+    text-align: center;
 }
+
 .hidden{
   visibility: hidden;
 }
