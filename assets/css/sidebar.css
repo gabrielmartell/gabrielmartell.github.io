@@ -37,6 +37,12 @@
     padding: 16px;
 }
 
+#top_left_button {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;

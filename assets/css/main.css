@@ -18,12 +18,10 @@ h1 {
   color: white;
   margin-top: 1.5em;
 }
-form{
-    background-color: #027d79;
-    border-radius: 1em;
-    padding: 1.8em;
-    width: 36%;
-    margin-left: 24em;
+
+td, th {
+  text-align: center;
+  padding: 8px;
 }
 
 #openBtn{
@@ -36,11 +34,26 @@ input{
   color: white;
 }
 
+.center {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: 120px;
+  margin-top: -300px
+  
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+}
 .center-text {
     margin: auto;
     width: 1000px;
     padding: 300px;
     text-align: center;
+    animation: fadeIn 10s;
 }
 
 #cursor_click {
@@ -49,7 +62,48 @@ input{
     margin-left: auto;
     margin-right: 155px;
     width: 50%;
+    animation: fadeInWait 10s;
 }
+
+#about_me_text {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  animation: fadeIn 5s;
+}
+
+#about_me_text2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  animation: fadeInWait 10s;
+}
+
+#about_me_text3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  animation: fadeInWait 15s;
+}
+#about_me_text4 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  animation: fadeInWait 20s;
+}
+#about_me_text5 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  animation: fadeInWait 25s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeInWait {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .hidden{
   visibility: hidden;

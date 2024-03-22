@@ -2,9 +2,11 @@
 window.onload = function () {
     let sidebarCloseButton = document.querySelector("#closeBtn");
     let sidebarOpenButton = document.querySelector("#openBtn");
+    let goBackButton = document.querySelector("#goBack");
 
     sidebarOpenButton.addEventListener("click", openNav);
     sidebarCloseButton.addEventListener("click", closeNav);
+    goBackButton.addEventListener("click", goBackToAbout)
 };
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
@@ -18,4 +20,8 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
   document.getElementById("cursor_click").style.visibility = "visible";
+}
+
+function goBackToAbout() {
+  window.location.href = '../about.html'
 }
