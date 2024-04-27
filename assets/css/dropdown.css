@@ -4,6 +4,8 @@
     display: none;
     background-color: #e4e4e4;
     padding-left: 8px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+
   }
   
   /* Optional: Style the caret down icon */

@@ -22,7 +22,7 @@
     }
 
         .sidenav a:hover, .dropdown-btn:hover {
-            color: darkblue;
+            color: rgb(255, 0, 0);
         }
 
     .sidenav .closebtn {
