@@ -46,7 +46,7 @@ input{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;">
+  width: 50%;
 }
 .center-text {
     margin: auto;
@@ -62,7 +62,7 @@ input{
     margin-left: auto;
     margin-right: 155px;
     width: 50%;
-    animation: fadeInWait 10s;
+    animation: fadeInWait 2s;
 }
 
 #about_me_text {
