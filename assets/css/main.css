@@ -9,7 +9,7 @@ body {
    color: white;
    margin: 0 auto;
    width: 1200px;
-   background-color: black;
+   background-color: #461313;
 }
 h1 {
   font-size: 2.5em;
@@ -51,46 +51,46 @@ input{
 .center-text {
     margin: auto;
     width: 1000px;
-    padding: 300px;
+    padding: 190px;
     text-align: center;
     animation: fadeIn 10s;
 }
 
 #cursor_click {
     display: block;
-    margin-top: -40px;
+    margin-top: 70px;
     margin-left: auto;
-    margin-right: 155px;
+    margin-right: 1500px;
     width: 50%;
     animation: fadeInWait 2s;
 }
 
 #about_me_text {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  animation: fadeIn 5s;
+  animation: fadeIn 2s;
 }
 
 #about_me_text2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  animation: fadeInWait 10s;
+  animation: fadeInWait 4s;
 }
 
 #about_me_text3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  animation: fadeInWait 15s;
+  animation: fadeInWait 6s;
 }
 #about_me_text4 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  animation: fadeInWait 20s;
+  animation: fadeInWait 8s;
 }
 #about_me_text5 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  animation: fadeInWait 25s;
+  animation: fadeInWait 10s;
 }
 
 @keyframes fadeIn {

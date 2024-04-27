@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/sidebar.css">
+	<link rel="stylesheet" href="assets/css/dropdown.css">
 
 </head>
 
@@ -13,8 +14,24 @@
 	<div id="main">
 		<div id="mySidenav" class="sidenav">
 			<a href="#" class="closebtn" id="closeBtn">&times;</a>
+			<img href="#" src="./assets/images/linkedin_logo.png" id="linkedin_link" alt="Click on me to go back!" style="width: 35px; height: 35px; margin-left: 30px">
+			<img href="#" src="./assets/images/github_logo.png" id="github_link" alt="Click on me to go back!" style="width: 35px; height: 35px; margin-left: 5px">
+			<img src="./assets/images/line.gif" style="width: 230px; height: 35px; margin-left: 5px; margin-top: 20px">
 			<a href="./subpages/about.html">About</a>
-			<a href="./subpages/hobbies.html">Hobbies</a>
+			<a href="#" class="dropdown-btn">Hobbies
+				<i class="fa fa-caret-down"></i>
+			</a>
+			<div class="dropdown-container">
+				<a href="./subpages/cars.html">Cars</a>
+				<a href="./subpages/model.html">3D Modeling</a>
+			</div>
+			<a href="#" class="dropdown-btn">Projects
+				<i class="fa fa-caret-down"></i>
+			</a>
+			<div class="dropdown-container">
+				<a href="#">TBD...</a>
+			</div>
+			<a href="./subpages/contact.html">Contact</a>
 		</div>
 
 		<div id="top_left_button">
@@ -22,7 +39,7 @@
 		</div>
 
 		<div class="center-text">
-			<img src="assets/images/name.gif" id="cursor_click" alt="My name in a cartoon-animated fashion." style="width: 500px; height: 150px;">
+			<img src="assets/images/name.gif" id="cursor_click" alt="My name in a cartoon-animated fashion." style="width: 700px; height: 250px;">
 		</div>
 
 	</div>
