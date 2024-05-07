@@ -56,6 +56,14 @@ input{
     animation: fadeIn 10s;
 }
 
+.left-text {
+  margin: 50px;
+  width: 1000px;
+  padding: 190px;
+  text-align: left;
+  animation: fadeIn 10s;
+}
+
 #cursor_click {
     display: block;
     margin-top: 70px;
