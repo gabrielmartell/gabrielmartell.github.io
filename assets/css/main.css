@@ -48,13 +48,22 @@ input{
   margin-right: auto;
   width: 50%;
 }
+
 .center-text {
     margin: auto;
     width: 1000px;
-    padding: 190px;
+    padding: 20px;
     text-align: center;
     animation: fadeIn 10s;
-}
+    background-color: #501717;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .center-text-seperator {
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+  }
 
 .left-text {
   margin: 50px;
@@ -62,6 +71,38 @@ input{
   padding: 190px;
   text-align: left;
   animation: fadeIn 10s;
+}
+
+.curved {
+  position: relative;
+  background: #652222;
+  height: 15vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.curved2 {
+  position: relative;
+  background: #712626;
+  height: 7vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.curved3 {
+  position: relative;
+  background: #792d2d;
+  height: 7vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.curved_experience {
+  position: relative;
+  background: #652222;
+  height: 28vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #cursor_click {
